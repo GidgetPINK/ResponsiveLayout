@@ -81,13 +81,13 @@ Header
 
 nav a{
     text-decoration: none;
-    margin-right: 15px;
+    margin-right: 8px;
     color: #000;
     font-weight: bolder;
 }
 
 nav{
-    margin: 5% 2% 5% 5%;
+    margin: 5% 2% 5% 2%;
 }
 
 header {
@@ -167,6 +167,7 @@ Skills
 .container{
     width: 100%;
     background-color: #ddd;
+    margin: 1% 0 1% 0;
 }
 
 .skills{
@@ -191,6 +192,10 @@ Skills
 
 .skills-container{
     margin-top: 15%;
+}
+
+.skills-container h2 {
+    background-color: #fafafa;
 }
 
 /*================
@@ -237,7 +242,7 @@ footer{
 
 footer h1{
     float: left;
-    margin: 2% 65% 2% 2%;
+    margin: 2% 55% 2% 2%;
     font-size: 1.2rem;
     font-weight: bold;
 }
@@ -294,6 +299,12 @@ Media Queries
     div.card{
         margin: 5% 15% 15% 2%;  
     }
+
+    .skills-container{
+        max-width: 60%;
+        margin: 0 auto;
+    }
+
     footer h1{
         margin-right: 50%;
     }
